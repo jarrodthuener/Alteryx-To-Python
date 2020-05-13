@@ -1,0 +1,986 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="342" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Excel File - Select a sheet</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ Input Data Tool]]></Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="54" width="492" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Input Data tool reads data into your workflow by reading from a file or connecting to a database.</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="671" width="552" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>After an excel file is selected, a named range may be selected. If the excel file contains a named range, the dropdown defaults to the available range.
+
+If no named range exists, sheet names are selectable in the dropdown.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="642" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Excel File - Define a data range</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Program Files\Alteryx\Samples\data\OneToolData\Cust_wTransactions.xlsx|||`NamedRangeExample`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cust_wTransactions.xlsx
+Query=`NamedRangeExample`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="Store Number" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="First Name" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="Last Name" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="Zip" size="255" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="V_String" />
+            <Field name="Visits" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="Double" />
+            <Field name="Spend" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||`NamedRangeExample`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="371" width="552" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This Input Data tool connects to an Excel file; an available sheet must be selected for data to be read.
+
+The Input Data tool previews the first 100 rows at the bottom of the Configuration window.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Program Files\Alteryx\Samples\data\OneToolData\Cust_wTransactions.xlsx|||`Output$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cust_wTransactions.xlsx
+Query=`Output$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="This spreadsheet contains a list of customer transactions." size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F2" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F3" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F4" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F5" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F6" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F7" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F8" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F9" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F10" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="F11" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="863" width="552" height="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[The default options are usually appropriate when reading in a .csv file.
+
+Note that the default comma delimiter can be changed via the "Delimiters" option.
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="834" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Comma-Delimited Text File (.csv)</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Program Files\Alteryx\Samples\data\OneToolData\State Populations.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>State Populations.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="State" size="254" source="File: C:\Program Files\Alteryx\Samples\data\OneToolData\State Populations.csv" type="V_String" />
+            <Field name="AreaSqMi" size="254" source="File: C:\Program Files\Alteryx\Samples\data\OneToolData\State Populations.csv" type="V_String" />
+            <Field name="Average Household Size" size="254" source="File: C:\Program Files\Alteryx\Samples\data\OneToolData\State Populations.csv" type="V_String" />
+            <Field name="Total Population" size="254" source="File: C:\Program Files\Alteryx\Samples\data\OneToolData\State Populations.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="1271" width="552" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Input Data tool can connect to many database systems. To connect to other database types:
+
+1. Drag an Input Data tool onto the canvas.
+2. In the "Connect a File or Database" drop-down, select Other Databases.
+3. Select a database type and follow the prompts.
+
+For a complete list of supported databases, and to learn how to connect to various database types, select an Input Data tool and press F1.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1242" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Database Connections - Other databases - Classic Mode</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="396" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>1) Run the workflow (Ctrl+R).</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="1" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="126" width="408" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>2) Select a tool to view its output in the Results window.</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="1" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="546" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Excel File - Set a record limit</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="575" width="552" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>"Record Limit" is set to 50 to speed up performance during development, especially when the Input Data tool is pulling records from a database.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="438" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Excel File - Start reading on specified line number</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="467" width="552" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The first few rows in this Excel spreadsheet do not contain relevant data. "Start Data Import on Line" is set to 5, so that the irrelevant rows are skipped.
+
+Note: Either scroll or expand the divider above the Preview to view more of the Option list.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Program Files\Alteryx\Samples\data\OneToolData\Cust_wTransactions.xlsx|||`Output$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>5</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cust_wTransactions.xlsx
+Query=`Output$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Store Number" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="First Name" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Last Name" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Zip" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Visits" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="Double" />
+            <Field name="Spend" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="50" SearchSubDirs="False" FileFormat="25">C:\Program Files\Alteryx\Samples\data\OneToolData\Cust_wTransactions.xlsx|||`Output$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>5</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cust_wTransactions.xlsx
+Query=`Output$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Customer_ID" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Store Number" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Customer Segment" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="First Name" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Last Name" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Address" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="City" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="State" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Zip" size="255" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="V_String" />
+            <Field name="Visits" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="Double" />
+            <Field name="Spend" source="File: C:\Users\kvickland\Desktop\11.0 One-Tool Example Drafts\ExamplesData\Cust_wTransactions.xlsx|||`Output$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="1139" width="552" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>To connect to these common database types:
+
+1. Drag an Input Data tool onto the canvas.
+2. In the "Connect a File or Database" drop-down, select Microsoft SQL Server, Oracle, or Hadoop.
+3. Follow the prompts to connect to your database.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1110" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Database Connections - SQL Server, Oracle, Hadoop - Classic Mode</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="970" width="552" height="121" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Input Data tool can connect to many other file types. To see a complete list:
+
+1. Drag an Input Data tool onto the canvas.
+2. In the "Connect a File or Database" drop-down, select File.
+3. Click the "Files of type" drop-down to see the list of supported files.
+
+You can also select an Input Data tool and press F1 to see a list of supported file types.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="941" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Other file types - Classic Mode</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="1602" width="804" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>More Info</Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="1602" width="552" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Note that the Gallery option will not be available unless a Gallery instance has been configured.
+
+To ensure this example workflow was compatible with any installation, input file paths were made relative after browsing to source files. (Options &gt; Advanced Options &gt; Workflow Dependencies).</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="White" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="310" y="1451" width="548" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Saved Data Connections option allows quick access to database connections that you have previously established, as well as to connections shared through a Private Gallery when using Alteryx Server.
+
+To view saved connections:
+
+1. Drag an Input Data tool onto the canvas.
+2. In the "Connect a File or Database" drop-down, select Saved Data Connections.
+3. Select an existing connection or select "Add a Gallery" to connect to an Alteryx Server Gallery.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="58" y="1422" width="800" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Saved Data Connections - Classic Mode</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="75" y="976" width="48" height="38" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAADEAAAAoCAYAAABXRRJPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDAAACwwBP0AiyAAAA+ZJREFUWEfdmFlIVFEYxwXT0skgsn17aKGyTb8IgiAKUqEFiqCXCCEoEHoqeovoIYKgRWkyS8chK7WdSE2EGi0tZcxMwyx6SEnLUdNcpppyOv9T93Lu7ThzlXGc28Nvzvad//f97zbcG+b1ek2PdNJsaAZO16fInaX35m0qLFhsBMRij6gxFqidpu7O8En2tOXjsk/TcMAe7BVFg43aOf6icqqsSCMsKLi8THamhskidmZnO1qbx4sFGkHtMBMzZQWOAfGslklikf5QOyFkApfoKnavGb5E1U4omQCsnlixUF+oHb2JjYX59OjjB9rzuJAm2s9pEgQK6EIfeZBPXEM9YqG+UDt6E4nFN4nNc9rd/XTy5XOadS1Dk2ikQAd60FVyIJ8YE3ATCp8H+ulYTQVNv2rVJDTKnOsZfD909NpBM6HQ/f0bZb15RYlFN2m87YwmuR6sIy7/fSO5PR6pHgi6CYXBwUGq73LRXkcRWXK09w3GmMc64mT7RcbMhIjLPUBHnU/5XrQYy+KGIiRMgLrOdr4XrWzdF/+1ibD0zeExGckrWEsCMVhTMIOJWQtztlNaZSpnfd4ummBNWsXm1X90U5hYnbuDyhuPcIrqD5HlQjJFWZPmYZ3HKJ1AmKjt+Mz3opWt+8KoCXCi7IDmsjKlCSBeVqY1IV5WpjWRXX2Qoi8kmdcEzsK0S1twOcXxGPyAQJgIxtMJYBxxPjEe9wOPwQ8IZRPi/0Tyrd3Kkyka6zxG6YSwiei/R10pHkzBmoIhE/a3DVTY/J48v35pEusxagI60IOuMjeUCSOoHV8mDlc5KILNLb6RRZmNL8n9U/5e4M/EgOcH3w8d6EFXWRt1E+Bdzxfa/6SEonLO0vy8TLK+rqXeH981MUOZQBxeR2Nzz/P90IGeGDMqJqaxV9ATtc+ope+rJhnei8/WO2nlbTtNvpJOqRWl9ML1ia/pTWAe64hbd/8aOwt1mvdqAH3kQT4xf0BMKESzI5dSVkxOV9s/b2hV7a20reQOj1tzN5cfbfTRYow+1hEn7oMO9KALfSWXSEBNiGwtuU1P2lr+MVPDjnhKWRFF2f4UhBZjzItx2If90NFr6xk1Ewpr7+Xye6Ktv09TZHNvD9ma6nkrziPuVF01xd2ySfVkjLoJBXzJ2Ff+kN2kXTQoFA0wxjzW/X0RkTFSEzNkYkbA43LDg3z+3O9wD/AWY8zL4o2AesRCfaF20hpqYmRiw0X/6WakoB6xUF9oBnOvX1wiEww2rI6lYl3+0AzK21oi2U27gAkl6IWDRALyow6xLn9IJ9n7QLijtdnCiAkiFuSV1eMP6aS58Ib9BnbqUn8G224pAAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="75" y="1144" width="48" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAADEAAAAoCAYAAABXRRJPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDAAACwwBP0AiyAAAA+ZJREFUWEfdmFlIVFEYxwXT0skgsn17aKGyTb8IgiAKUqEFiqCXCCEoEHoqeovoIYKgRWkyS8chK7WdSE2EGi0tZcxMwyx6SEnLUdNcpppyOv9T93Lu7ThzlXGc28Nvzvad//f97zbcG+b1ek2PdNJsaAZO16fInaX35m0qLFhsBMRij6gxFqidpu7O8En2tOXjsk/TcMAe7BVFg43aOf6icqqsSCMsKLi8THamhskidmZnO1qbx4sFGkHtMBMzZQWOAfGslklikf5QOyFkApfoKnavGb5E1U4omQCsnlixUF+oHb2JjYX59OjjB9rzuJAm2s9pEgQK6EIfeZBPXEM9YqG+UDt6E4nFN4nNc9rd/XTy5XOadS1Dk2ikQAd60FVyIJ8YE3ATCp8H+ulYTQVNv2rVJDTKnOsZfD909NpBM6HQ/f0bZb15RYlFN2m87YwmuR6sIy7/fSO5PR6pHgi6CYXBwUGq73LRXkcRWXK09w3GmMc64mT7RcbMhIjLPUBHnU/5XrQYy+KGIiRMgLrOdr4XrWzdF/+1ibD0zeExGckrWEsCMVhTMIOJWQtztlNaZSpnfd4ummBNWsXm1X90U5hYnbuDyhuPcIrqD5HlQjJFWZPmYZ3HKJ1AmKjt+Mz3opWt+8KoCXCi7IDmsjKlCSBeVqY1IV5WpjWRXX2Qoi8kmdcEzsK0S1twOcXxGPyAQJgIxtMJYBxxPjEe9wOPwQ8IZRPi/0Tyrd3Kkyka6zxG6YSwiei/R10pHkzBmoIhE/a3DVTY/J48v35pEusxagI60IOuMjeUCSOoHV8mDlc5KILNLb6RRZmNL8n9U/5e4M/EgOcH3w8d6EFXWRt1E+Bdzxfa/6SEonLO0vy8TLK+rqXeH981MUOZQBxeR2Nzz/P90IGeGDMqJqaxV9ATtc+ope+rJhnei8/WO2nlbTtNvpJOqRWl9ML1ia/pTWAe64hbd/8aOwt1mvdqAH3kQT4xf0BMKESzI5dSVkxOV9s/b2hV7a20reQOj1tzN5cfbfTRYow+1hEn7oMO9KALfSWXSEBNiGwtuU1P2lr+MVPDjnhKWRFF2f4UhBZjzItx2If90NFr6xk1Ewpr7+Xye6Ktv09TZHNvD9ma6nkrziPuVF01xd2ySfVkjLoJBXzJ2Ff+kN2kXTQoFA0wxjzW/X0RkTFSEzNkYkbA43LDg3z+3O9wD/AWY8zL4o2AesRCfaF20hpqYmRiw0X/6WakoB6xUF9oBnOvX1wiEww2rI6lYl3+0AzK21oi2U27gAkl6IWDRALyow6xLn9IJ9n7QLijtdnCiAkiFuSV1eMP6aS58Ib9BnbqUn8G224pAAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="75" y="1276" width="48" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAADEAAAAoCAYAAABXRRJPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDAAACwwBP0AiyAAAA+ZJREFUWEfdmFlIVFEYxwXT0skgsn17aKGyTb8IgiAKUqEFiqCXCCEoEHoqeovoIYKgRWkyS8chK7WdSE2EGi0tZcxMwyx6SEnLUdNcpppyOv9T93Lu7ThzlXGc28Nvzvad//f97zbcG+b1ek2PdNJsaAZO16fInaX35m0qLFhsBMRij6gxFqidpu7O8En2tOXjsk/TcMAe7BVFg43aOf6icqqsSCMsKLi8THamhskidmZnO1qbx4sFGkHtMBMzZQWOAfGslklikf5QOyFkApfoKnavGb5E1U4omQCsnlixUF+oHb2JjYX59OjjB9rzuJAm2s9pEgQK6EIfeZBPXEM9YqG+UDt6E4nFN4nNc9rd/XTy5XOadS1Dk2ikQAd60FVyIJ8YE3ATCp8H+ulYTQVNv2rVJDTKnOsZfD909NpBM6HQ/f0bZb15RYlFN2m87YwmuR6sIy7/fSO5PR6pHgi6CYXBwUGq73LRXkcRWXK09w3GmMc64mT7RcbMhIjLPUBHnU/5XrQYy+KGIiRMgLrOdr4XrWzdF/+1ibD0zeExGckrWEsCMVhTMIOJWQtztlNaZSpnfd4ummBNWsXm1X90U5hYnbuDyhuPcIrqD5HlQjJFWZPmYZ3HKJ1AmKjt+Mz3opWt+8KoCXCi7IDmsjKlCSBeVqY1IV5WpjWRXX2Qoi8kmdcEzsK0S1twOcXxGPyAQJgIxtMJYBxxPjEe9wOPwQ8IZRPi/0Tyrd3Kkyka6zxG6YSwiei/R10pHkzBmoIhE/a3DVTY/J48v35pEusxagI60IOuMjeUCSOoHV8mDlc5KILNLb6RRZmNL8n9U/5e4M/EgOcH3w8d6EFXWRt1E+Bdzxfa/6SEonLO0vy8TLK+rqXeH981MUOZQBxeR2Nzz/P90IGeGDMqJqaxV9ATtc+ope+rJhnei8/WO2nlbTtNvpJOqRWl9ML1ia/pTWAe64hbd/8aOwt1mvdqAH3kQT4xf0BMKESzI5dSVkxOV9s/b2hV7a20reQOj1tzN5cfbfTRYow+1hEn7oMO9KALfSWXSEBNiGwtuU1P2lr+MVPDjnhKWRFF2f4UhBZjzItx2If90NFr6xk1Ewpr7+Xye6Ktv09TZHNvD9ma6nkrziPuVF01xd2ySfVkjLoJBXzJ2Ff+kN2kXTQoFA0wxjzW/X0RkTFSEzNkYkbA43LDg3z+3O9wD/AWY8zL4o2AesRCfaF20hpqYmRiw0X/6WakoB6xUF9oBnOvX1wiEww2rI6lYl3+0AzK21oi2U27gAkl6IWDRALyow6xLn9IJ9n7QLijtdnCiAkiFuSV1eMP6aS58Ib9BnbqUn8G224pAAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="134">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="75" y="1456" width="48" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAADEAAAAoCAYAAABXRRJPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDAAACwwBP0AiyAAAA+ZJREFUWEfdmFlIVFEYxwXT0skgsn17aKGyTb8IgiAKUqEFiqCXCCEoEHoqeovoIYKgRWkyS8chK7WdSE2EGi0tZcxMwyx6SEnLUdNcpppyOv9T93Lu7ThzlXGc28Nvzvad//f97zbcG+b1ek2PdNJsaAZO16fInaX35m0qLFhsBMRij6gxFqidpu7O8En2tOXjsk/TcMAe7BVFg43aOf6icqqsSCMsKLi8THamhskidmZnO1qbx4sFGkHtMBMzZQWOAfGslklikf5QOyFkApfoKnavGb5E1U4omQCsnlixUF+oHb2JjYX59OjjB9rzuJAm2s9pEgQK6EIfeZBPXEM9YqG+UDt6E4nFN4nNc9rd/XTy5XOadS1Dk2ikQAd60FVyIJ8YE3ATCp8H+ulYTQVNv2rVJDTKnOsZfD909NpBM6HQ/f0bZb15RYlFN2m87YwmuR6sIy7/fSO5PR6pHgi6CYXBwUGq73LRXkcRWXK09w3GmMc64mT7RcbMhIjLPUBHnU/5XrQYy+KGIiRMgLrOdr4XrWzdF/+1ibD0zeExGckrWEsCMVhTMIOJWQtztlNaZSpnfd4ummBNWsXm1X90U5hYnbuDyhuPcIrqD5HlQjJFWZPmYZ3HKJ1AmKjt+Mz3opWt+8KoCXCi7IDmsjKlCSBeVqY1IV5WpjWRXX2Qoi8kmdcEzsK0S1twOcXxGPyAQJgIxtMJYBxxPjEe9wOPwQ8IZRPi/0Tyrd3Kkyka6zxG6YSwiei/R10pHkzBmoIhE/a3DVTY/J48v35pEusxagI60IOuMjeUCSOoHV8mDlc5KILNLb6RRZmNL8n9U/5e4M/EgOcH3w8d6EFXWRt1E+Bdzxfa/6SEonLO0vy8TLK+rqXeH981MUOZQBxeR2Nzz/P90IGeGDMqJqaxV9ATtc+ope+rJhnei8/WO2nlbTtNvpJOqRWl9ML1ia/pTWAe64hbd/8aOwt1mvdqAH3kQT4xf0BMKESzI5dSVkxOV9s/b2hV7a20reQOj1tzN5cfbfTRYow+1hEn7oMO9KALfSWXSEBNiGwtuU1P2lr+MVPDjnhKWRFF2f4UhBZjzItx2If90NFr6xk1Ewpr7+Xye6Ktv09TZHNvD9ma6nkrziPuVF01xd2ySfVkjLoJBXzJ2Ff+kN2kXTQoFA0wxjzW/X0RkTFSEzNkYkbA43LDg3z+3O9wD/AWY8zL4o2AesRCfaF20hpqYmRiw0X/6WakoB6xUF9oBnOvX1wiEww2rI6lYl3+0AzK21oi2U27gAkl6IWDRALyow6xLn9IJ9n7QLijtdnCiAkiFuSV1eMP6aS58Ib9BnbqUn8G224pAAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="135">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="750" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Excel File - List of sheet names</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="136">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="779" width="552" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Instead of inputting rows of data, when connected to an excel file, a list of the names of the sheets contained in that file can be read in.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="137">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="50" SearchSubDirs="False" FileFormat="25">C:\Program Files\Alteryx\Samples\data\OneToolData\Cust_wTransactions.xlsx|||&lt;List of Sheet Names&gt;</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>5</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cust_wTransactions.xlsx
+Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sheet Names" size="6" source="File: C:\Program Files\Alteryx\Samples\en\02 Learn_one_tool_at_a_time\ExamplesData\Cust_wTransactions.xlsx|||&lt;List of Sheet Names&gt;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="138">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="162" width="804" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Data connections</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="142">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="190" width="552" height="140" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Input Data tool acts as a Single Access Point for any data file or connection that can be brought in to Designer. 
+
+To connect to data:
+1) Drag and drop an Input Data tool onto the canvas
+2) Click the drop down arrow next to Connect a File or Database
+3) Choose the source; Files and data source tabs display all supported connection types. Once those have been configured you can find them on the Recent and Saved tabs.
+4) Configure connection</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="143">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="71" y="198" width="48" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+          <BG_Image>iVBORw0KGgoAAAANSUhEUgAAADEAAAAoCAYAAABXRRJPAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALDAAACwwBP0AiyAAAA+ZJREFUWEfdmFlIVFEYxwXT0skgsn17aKGyTb8IgiAKUqEFiqCXCCEoEHoqeovoIYKgRWkyS8chK7WdSE2EGi0tZcxMwyx6SEnLUdNcpppyOv9T93Lu7ThzlXGc28Nvzvad//f97zbcG+b1ek2PdNJsaAZO16fInaX35m0qLFhsBMRij6gxFqidpu7O8En2tOXjsk/TcMAe7BVFg43aOf6icqqsSCMsKLi8THamhskidmZnO1qbx4sFGkHtMBMzZQWOAfGslklikf5QOyFkApfoKnavGb5E1U4omQCsnlixUF+oHb2JjYX59OjjB9rzuJAm2s9pEgQK6EIfeZBPXEM9YqG+UDt6E4nFN4nNc9rd/XTy5XOadS1Dk2ikQAd60FVyIJ8YE3ATCp8H+ulYTQVNv2rVJDTKnOsZfD909NpBM6HQ/f0bZb15RYlFN2m87YwmuR6sIy7/fSO5PR6pHgi6CYXBwUGq73LRXkcRWXK09w3GmMc64mT7RcbMhIjLPUBHnU/5XrQYy+KGIiRMgLrOdr4XrWzdF/+1ibD0zeExGckrWEsCMVhTMIOJWQtztlNaZSpnfd4ummBNWsXm1X90U5hYnbuDyhuPcIrqD5HlQjJFWZPmYZ3HKJ1AmKjt+Mz3opWt+8KoCXCi7IDmsjKlCSBeVqY1IV5WpjWRXX2Qoi8kmdcEzsK0S1twOcXxGPyAQJgIxtMJYBxxPjEe9wOPwQ8IZRPi/0Tyrd3Kkyka6zxG6YSwiei/R10pHkzBmoIhE/a3DVTY/J48v35pEusxagI60IOuMjeUCSOoHV8mDlc5KILNLb6RRZmNL8n9U/5e4M/EgOcH3w8d6EFXWRt1E+Bdzxfa/6SEonLO0vy8TLK+rqXeH981MUOZQBxeR2Nzz/P90IGeGDMqJqaxV9ATtc+ope+rJhnei8/WO2nlbTtNvpJOqRWl9ML1ia/pTWAe64hbd/8aOwt1mvdqAH3kQT4xf0BMKESzI5dSVkxOV9s/b2hV7a20reQOj1tzN5cfbfTRYow+1hEn7oMO9KALfSWXSEBNiGwtuU1P2lr+MVPDjnhKWRFF2f4UhBZjzItx2If90NFr6xk1Ewpr7+Xye6Ktv09TZHNvD9ma6nkrziPuVF01xd2ySfVkjLoJBXzJ2Ff+kN2kXTQoFA0wxjzW/X0RkTFSEzNkYkbA43LDg3z+3O9wD/AWY8zL4o2AesRCfaF20hpqYmRiw0X/6WakoB6xUF9oBnOvX1wiEww2rI6lYl3+0AzK21oi2U27gAkl6IWDRALyow6xLn9IJ9n7QLijtdnCiAkiFuSV1eMP6aS58Ib9BnbqUn8G224pAAAAAElFTkSuQmCC</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="144">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="210" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <WorkflowName>c:\program files\alteryx\samples\en\02 learn_one_tool_at_a_time\01 in out\input_data.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>jupytertool_venv</vEnvName>
+          <productionModeScript />
+          <Port>60093</Port>
+          <JupyterGuidDir>7a33fc59-1e55-4c9b-ad12-09215386822e</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":null,"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","# from ayx import Package\n","#Package.installPackages(['pandas','numpy'])"]},{"cell_type":"markdown","metadata":{},"source":["# Excel File - Select a sheet"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["# from ayx import Alteryx\n","import pandas as pd\n","\n","# use sheet_name=sheet parameter\n","input = pd.read_excel('C:\\Program Files\\Alteryx\\Samples\\data\\OneToolData\\Cust_wTransactions.xlsx',sheet_name='Output')\n","\n","input"]},{"cell_type":"markdown","metadata":{},"source":["# Excel File - Start reading on specified line number"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["# use \"header=line\" parameter\n","input = pd.read_excel('C:\\Program Files\\Alteryx\\Samples\\data\\OneToolData\\Cust_wTransactions.xlsx', header=4)\n","input"]},{"cell_type":"markdown","metadata":{},"source":["# Excel File - Set a record limit"]},{"cell_type":"code","execution_count":null,"metadata":{"scrolled":true},"outputs":[],"source":["# use \"nrows=int\" parameter\n","input = pd.read_excel('C:\\Program Files\\Alteryx\\Samples\\data\\OneToolData\\Cust_wTransactions.xlsx', header=4,nrows=3)\n","input"]},{"cell_type":"markdown","metadata":{},"source":["# Excel File - Define a data range"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["# looking into this one"]},{"cell_type":"markdown","metadata":{},"source":["# Excel File - list of sheet names"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["# use \"ExcelFile\" class\n","input = pd.ExcelFile('C:\\Program Files\\Alteryx\\Samples\\data\\OneToolData\\Cust_wTransactions.xlsx')\n","\n","# since input is now an object, you can pass through \"sheet_names\" to extract that data\n","input.sheet_names\n","\n","# then you can pull the sheet in\n","input.parse('Output')"]},{"cell_type":"markdown","metadata":{},"source":["# Comma-Delimited Text File (.csv)"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["# same as above but switch to read_csv, tab delimited is read_table or use the \"sep='\\t'\" parameter\n","input = pd.read_csv('C:\\Program Files\\Alteryx\\Samples\\data\\OneToolData\\State Populations.csv')\n","input"]},{"cell_type":"markdown","metadata":{},"source":["# Other File types - Classic Mode"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":[]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":[]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":[]}],"metadata":{"kernelspec":{"display_name":"jupytertool_venv","language":"python","name":"jupytertool_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.8"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Input_Data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
