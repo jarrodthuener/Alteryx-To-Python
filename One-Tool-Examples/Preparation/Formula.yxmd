@@ -1,0 +1,711 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.2">
+  <Nodes>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="443" width="492" height="43" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Instead of adding a new Output Column, an existing column (City) is chosen and the capitalization function is applied directly.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="191" width="486" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA["RecordSource" is added under "Output Column" to create a new column with a text entry showing the source of the records. ]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="275" width="492" height="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[A new "Region" column is added based on the values in the Latitude column using the IF/Then/Else function. To search for functions, click the Functions "       " button to the left of the expression box or begin typing and choose from the list that appears.
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="162" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create a new static column</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="246" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>IF/ELSE Conditional Formula</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="414" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Modify existing column</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="330" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>'New modified' column</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="804" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ Formula Tool]]></Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="54" width="492" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The Formula tool enables you to perform a broad variety of calculations and/or operations to create new data columns or update existing columns.</Text>
+          <Font name="Segoe UI" size="9" style="0" />
+          <TextColor name="White" />
+          <FillColor r="111" g="111" b="111" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Program Files\Alteryx\Samples\data\OneToolData\CustomerFile2_Narrow.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CustomerFile2_Narrow.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CustomerID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="City" size="256" source="Formula: (Multiple Sources)" type="String" />
+            <Field name="Visits" source="TextInput:" type="Byte" />
+            <Field name="Spend" source="TextInput:" type="Double" />
+            <Field name="Latitude" source="Formula: IF IsNull([Z9_Point]) THEN [Lat] ELSE [Z9_Latitude] ENDIF" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="359" width="492" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>A new column is created based on the City column, with a function to set consistent capitalization.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="527" width="492" height="43" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>A single Formula tool can contain multiple formulas for multiple columns. Here, three of the examples above are represented in one tool.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="498" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Multiple columns</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="611" width="492" height="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>A new column (AverageSpendPerVisit) is created in a single expression by dividing two existing columns and rounding the result to the nearest whole number.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="666" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Complex formula, multiple steps</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="695" width="492" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>In this Formula tool, the same calculation as above is performed but in 2 steps:
+1) Spend is divided by the number of Visits.
+2) The result of the expression above is then rounded.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="270" y="582" width="588" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Complex formula, single step</Text>
+          <Font name="Segoe UI" size="9.75" style="0" />
+          <TextColor r="130" g="141" b="169" />
+          <FillColor r="225" g="231" b="242" />
+          <Shape shape="1" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="774" width="804" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ More Info]]></Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="774" width="492" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>To reference a column or constant in an expression, click the blue Columns and Constants "    " button, or type a left bracket "[" in the expression box and choose from the list that appears.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="White" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="126" width="408" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>1) Run the workflow (Ctrl+R).</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="1" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="126" width="396" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>2) Select a tool to view its output in the Results window.</Text>
+          <Font name="Segoe UI" size="8.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="1" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Alteryx Sample Data&quot;" field="RecordSource" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[RecordSource = "Alteryx Sample Data"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Latitude] &gt; 39.7 &#xA;THEN &quot;North&quot; &#xA;ELSE &quot;South&quot;&#xA;ENDIF" field="Region" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Region = IF [Latitude] > 39.7 
+THEN "North" 
+ELSE "South"
+ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Titlecase([City])" field="City_titleCase" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[City_titleCase = Titlecase([City])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Titlecase([City])" field="City" size="256" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[City = Titlecase([City])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Alteryx Sample Data&quot;" field="RecordSource" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [Latitude] &gt; 39.7 &#xA;THEN &quot;North&quot; &#xA;ELSE &quot;South&quot;&#xA;ENDIF" field="Region" size="1073741823" type="V_WString" />
+            <FormulaField expression="Titlecase([City])" field="City" size="256" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RecordSource = "Alteryx Sample Data"
+Region = IF [Latitude] &gt; 39.7 
+THEN "North"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ROUND([Spend]/[Visits],1)" field="AverageSpendPerVisit" size="19.2" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[AverageSpendPerVisit = ROUND([Spend]/[Visits],1)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="282" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Spend]/[Visits]" field="AverageSpendPerVisit" size="19.2" type="FixedDecimal" />
+            <FormulaField expression="ROUND([AverageSpendPerVisit], 1)" field="AverageSpendPerVisit" size="19.2" type="FixedDecimal" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AverageSpendPerVisit = [Spend]/[Visits]
+AverageSpendPerVisit = ROUND([AverageSpe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="686" y="290" width="36" height="32" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>fx</Text>
+          <Font name="Lucida Calligraphy" size="9.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="811" y="781" width="36" height="32" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>X</Text>
+          <Font name="Lucida Calligraphy" size="9.75" style="0" />
+          <TextColor name="White" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="JupyterCode">
+        <Position x="126" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <LastExecutedByEngineVersion>2020.2.0.24241</LastExecutedByEngineVersion>
+          <WorkflowName>c:\users\jarrod\documents\optimizingalteryx\one tool examples\preparation\formula.yxmd</WorkflowName>
+          <JupyterProduction>false</JupyterProduction>
+          <vEnvName>jupytertool_venv</vEnvName>
+          <productionModeScript />
+          <Port>55538</Port>
+          <JupyterGuidDir>98a370fc-1379-4ba1-8876-6e2721b66435</JupyterGuidDir>
+          <JupyterGuidCopy />
+          <Notebook><![CDATA[{"cells":[{"cell_type":"markdown","metadata":{"ayx":{"cell_class":"text_cell","cell_css":"border: 3px solid #357; margin: 4px; background: #fbffff","cell_type":"markdown","contents_keyword":"Alteryx.help()","first_line":"Run `Alteryx.help()` for info about useful functions.","label":"info"}},"source":["Run `Alteryx.help()` for info about useful functions.  \n","i.e., `Alteryx.read(\"#1\")`, `Alteryx.write(df,1)`, `Alteryx.getWorkflowConstant(\"Engine.WorkflowDirectory\")`"]},{"cell_type":"code","execution_count":null,"metadata":{"ayx":{"cell_class":"code_cell","cell_css":"border: 1px solid #58a; margin: 2px;","cell_type":"code","contents_keyword":"installPackages","first_line":"# List all non-standard packages to be imported by your","label":"deps"}},"outputs":[],"source":["# List all non-standard packages to be imported by your \n","# script here (only missing packages will be installed)\n","from ayx import Package\n","#Package.installPackages(['pandas','numpy'])"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["from ayx import Alteryx\n","import pandas as pd\n","customer = Alteryx.read('#1')\n"]},{"cell_type":"markdown","metadata":{},"source":["# Create a new static column"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["# copy dataframe so we can continue to work on individual problems downstream\n","output = customer.copy()\n","output['RecordSource'] =\"Alteryx Sample Data\"\n","print(output)"]},{"cell_type":"markdown","metadata":{},"source":["# If/Else Conditional Formula"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["output = customer.copy()\n","\n","# df.loc[df['column name'] condition, 'new column name'] = 'value if condition is met'\n","output.loc[output['Latitude'] > 39.7, 'Region'] = 'North'\n","output.loc[output['Latitude'] <= 39.7, 'Region'] = 'South'\n","\n","# df['new column name'] = df['column name'].apply(lambda x: 'value if condition is met' if x condition else 'value if condition is not met')\n","output['Region'] = output['Latitude'].apply(lambda x : 'North' if x > 39.7 else 'South')\n","\n","print(output)"]},{"cell_type":"markdown","metadata":{},"source":["# 'New Modified' Column"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["output = customer.copy()\n","\n","output['City_titleCase'] = output['City'].str.title()\n","print(output)"]},{"cell_type":"markdown","metadata":{},"source":["# Modify existing column"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["output = customer.copy()\n","\n","output['City'] = output['City'].str.title()\n","print(output)"]},{"cell_type":"markdown","metadata":{},"source":["# Multiple Columns"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["output = customer.copy()\n","output['RecordSource'] =\"Alteryx Sample Data\"\n","output['Region'] = output['Latitude'].apply(lambda x : 'North' if x > 39.7 else 'South')\n","output['City'] = output['City'].str.title()\n","print(output)"]},{"cell_type":"markdown","metadata":{},"source":["# Complex formula, single Step"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["output = customer.copy()\n","output['AverageSpendPerVisit'] = (output['Spend']/output['Visits']).round(decimals=1)\n","print(output)"]},{"cell_type":"markdown","metadata":{},"source":["# Complex formula, multiple steps"]},{"cell_type":"code","execution_count":null,"metadata":{},"outputs":[],"source":["output = customer.copy()\n","output['AverageSpendPerVisit'] = (output['Spend']/output['Visits'])\n","output['AverageSpendPerVisit'] = output['AverageSpendPerVisit'].round(decimals=1) \n","print(output)"]}],"metadata":{"kernelspec":{"display_name":"jupytertool_venv","language":"python","name":"jupytertool_venv"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.6.8"}},"nbformat":4,"nbformat_minor":2}]]></Notebook>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxJupyterPluginEngine.dll" EngineDllEntryPoint="AlteryxJupyter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Formula</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
